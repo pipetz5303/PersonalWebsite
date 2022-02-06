@@ -3,11 +3,13 @@
     font-family: Verdana, Tahoma, sans-serif;
 }
 
-
+body{
+    width: 320px;
+}
 
 #header{
     background-color: rgb(0, 0, 0);
-    width: 100%;
+    width: auto;
     height: 3.5em;
     color: white;
     display: flex;
@@ -43,17 +45,24 @@ nav a{
     background-color: rgb(104, 187, 187);
     width: 100%;
     height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about_me{
     background-color: rgb(104, 187, 141);
     width: 100%;
-    height: 30em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icon_soft{
     height: 3em;
-    width: 3em;
+    width: 4em;
     margin: 1em;
 
 }
@@ -61,7 +70,25 @@ nav a{
 #my_work{
     background-color: rgb(187, 174, 104);
     width: 100%;
-    height: 30em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portafolio{
+    display: grid;
+    grid:  'pieza pieza';
+    
+
+}
+
+.project_portfolio{
+    background-color: aqua;
+    margin: 0.5em;
+    height: 8em;
+    width: 8em;
+    grid-area: 'pieza';
 }
 
 #studies{
@@ -79,10 +106,15 @@ nav a{
 #footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 2em;
+    height: auto;
     color: #FFF;
     font-size: 0.7em;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+footer p{
+    padding: 0.5em;
 }
