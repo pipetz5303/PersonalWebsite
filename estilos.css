@@ -9,7 +9,7 @@ body{
 
 #header{
     background-color: rgb(0, 0, 0);
-    width: auto;
+    width: 320px;
     height: 3.5em;
     color: white;
     display: flex;
@@ -20,7 +20,7 @@ body{
 }
 
 #header_info_felipe{
-    width: 50%;
+    
     margin:0.5em;
 }
 
@@ -35,10 +35,21 @@ body{
 
 }
 
+#menu_3lineas{
+    height: 3rem;
+    margin: 0.5em;
+    margin: auto;
+}
+
 nav a{
     text-decoration: none;
     color:#FFF;
     margin: 0.5em;
+}
+
+#nav ul{
+    display: none;
+    text-align: right;
 }
 
 #home{
